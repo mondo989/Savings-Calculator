@@ -29,6 +29,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     var weeklyIncome : Float = 0
     var monthlyIncome : Float = 0
 
+
     var monthlySavings : Float = 0
     var yearlySavings : Float = 0
     var monthlyPercent : Float = 0
