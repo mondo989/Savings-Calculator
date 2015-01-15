@@ -54,14 +54,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
         txtWeeklySavings.text = ""
         txtYearlyIncome.text = ""
         
-        lblHourlyIncome.text = "$$$$"
-        lblWeeklyIncome.text = "$$$$"
-        lblMonthlyPercent.text = "$$$$"
+        lblHourlyIncome.text = "$0"
+        lblWeeklyIncome.text = "$0"
+        lblMonthlyIncome.text = "%0"
         
-        lblMonthlySavings.text = "$$$$"
-        lblYearlyPercent.text = "$$$$"
-        lblMonthlyPercent.text = "%"
-        lblYearlyPercent.text = "%"
+        lblMonthlySavings.text = "$0"
+        lblYearlyPercent.text = "$0"
+        lblMonthlyPercent.text = "%0"
+        lblYearlyPercent.text = "%0"
         
     }
     
