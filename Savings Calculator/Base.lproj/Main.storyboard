@@ -115,15 +115,6 @@
                                     <rect key="frame" x="216" y="185" width="88" height="28"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weekly Income (52 weeks)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HlH-9b-qhP">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="22" y="155" width="203" height="21"/>
-                                </variation>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monthly Percent" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvD-fU-DU8">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
@@ -199,6 +190,15 @@
                                     <rect key="frame" x="216" y="155" width="88" height="28"/>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weekly Income (52 weeks)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HlH-9b-qhP">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="22" y="155" width="203" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.5176470876" green="0.78823536630000002" blue="0.96862751250000001" alpha="1" colorSpace="deviceRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -215,7 +215,6 @@
                                 <exclude reference="HyU-tc-7yp"/>
                                 <exclude reference="zCm-CG-W4E"/>
                                 <exclude reference="9hN-gA-kkd"/>
-                                <exclude reference="HlH-9b-qhP"/>
                                 <exclude reference="yvD-fU-DU8"/>
                                 <exclude reference="ijz-2e-vcv"/>
                                 <exclude reference="IJW-gM-Ztr"/>
@@ -223,6 +222,7 @@
                                 <exclude reference="sUr-ny-pjw"/>
                                 <exclude reference="iTn-r8-3av"/>
                                 <exclude reference="wlI-OP-ptU"/>
+                                <exclude reference="HlH-9b-qhP"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -238,7 +238,6 @@
                                 <include reference="HyU-tc-7yp"/>
                                 <include reference="zCm-CG-W4E"/>
                                 <include reference="9hN-gA-kkd"/>
-                                <include reference="HlH-9b-qhP"/>
                                 <include reference="yvD-fU-DU8"/>
                                 <include reference="ijz-2e-vcv"/>
                                 <include reference="IJW-gM-Ztr"/>
@@ -246,6 +245,7 @@
                                 <include reference="sUr-ny-pjw"/>
                                 <include reference="iTn-r8-3av"/>
                                 <include reference="wlI-OP-ptU"/>
+                                <include reference="HlH-9b-qhP"/>
                             </mask>
                         </variation>
                     </view>

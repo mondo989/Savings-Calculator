@@ -57,7 +57,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         lblHourlyIncome.text = "$0"
         lblWeeklyIncome.text = "$0"
-        lblMonthlyIncome.text = "%0"
+        lblMonthlyIncome.text = "$0"
         
         lblMonthlySavings.text = "$0"
         lblYearlyPercent.text = "$0"
